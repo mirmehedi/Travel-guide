@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".more_info">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFE3F2FD">
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/sea"
+            android:contentDescription="@string/app_name"/>
+
+        <RelativeLayout
+            android:id="@+id/detail_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/detail_title_name"
+                style="@style/text_view_detail"
+                android:textSize="24sp"
+                tools:text="Cabo de Gata"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#EDE2E2">
+
+            <TextView
+                android:id="@+id/detail_address"
+                style="@style/text_view_detail"
+                android:layout_height="973dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/map"
+                android:textSize="14sp"
+                tools:text="Cabo de Gata, \nNijar, Almería" />
+
+            <TextView
+                android:id="@+id/detail_tel"
+                style="@style/text_view_detail"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:drawableTop="@drawable/phone"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="14sp"
+                tools:text="0034950123334" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/detail_web"
+                android:layout_gravity="center_vertical|center_horizontal"
+                style="@style/text_view_detail"
+                android:text="@string/button_web"
+                android:padding="4dp"
+                android:fontFamily="sans-serif-black"
+                android:drawableTop="@drawable/website"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_desc"
+            android:padding="4dp"
+            style="@style/text_view_detail"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            tools:text="@tools:sample/lorem/random"/>
+
+        <TextView
+            android:id="@+id/detail_item_name"
+            style="@style/text_view_detail"
+            android:padding="4dp"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="@tools:sample/cities" />
+    </LinearLayout>
+
+</ScrollView>
+
+

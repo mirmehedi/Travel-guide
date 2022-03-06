@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- array main category ( 0 = hotel, 1 = food ,  beach = 2 ,  3 = information ) -->
+    <string-array name="categories">
+        <item>Hotels</item>
+        <item>Restaurants</item>
+        <item>Beaches</item>
+        <item>Information</item>
+    </string-array>
+
+    <!-- array cat1 => hotel =>  title_name_1 = titleName | address_1 = address | tel_1 = tel | web_1 = web | item_name_1 = itemName -->
+    <string-array name="title_name_1">
+        <item> Royal Tulip Sea Pearl Beach Resort  Spa</item>
+        <item>Hotel The Cox Today </item>
+        <item>Long Beach Hotel  </item>
+        <item>Shopno Bilash</item>
+        <item>Hotel Prime Park </item>
+        <item>The Cox Beach Resort </item>
+        <item>Beach Holiday Guest House</item>
+        <item>Sea Breeze Resort</item>
+    </string-array>
+    <string-array name="address_1">
+        <item> Jaliapalong, Inani, Ukhia, Coxs Bazar Coxs Bazar</item>
+        <item>Plot-7, Road-02, Hotel Motel Zone, Kolatoly Road, Coxs Bazar, Bangladesh </item>
+        <item>14 Kalatoli, Hotel-Motel Zone, 4700 Coxs Bazar, Bangladesh  </item>
+        <item># 28 Block # A Plot, Coxs Bazar 4700 Bangladesh </item>
+        <item>Plot 58, Block C, Kolatoli, Coxs Bazar 4700, Bangladesh  </item>
+        <item>Plot 15, Block A, Kolatoli Main Road, Coxs Bazar  </item>
+        <item>Plot # 20, Hotel Motel Zone, Kolatoli road, 20 New Beach Rd, Coxs Bazar </item>
+        <item>Block B, Plot 18, Kolatali Road, Coxs Bazar, Coxs Bazar, Coxs Bazar, Bangladesh, 4700  </item>
+    </string-array>
+    <string-array name="tel_1">
+        <item>+880 1844-016194</item>
+        <item>+88-0341 52410-22</item>
+        <item>+88 0341 51843-6</item>
+        <item>01812-965252</item>
+        <item>01775-609915</item>
+        <item>01840-477978</item>
+        <item>01829-606656</item>
+        <item>0341-63096</item>
+    </string-array>
+    <string-array name="web_1">
+        <item>https://www.agoda.com/royal-tulip-sea-pearl-beach-resort-spa/hotel/cox-s-bazar-bd.html?cid=1844104</item>
+        <item>https://hotelthecoxtoday.com/</item>
+        <item>https://longbeachhotelbd.com/</item>
+        <item>https://www.hotels.com/ho690308512/shopno-bilash-holiday-suites-cox-s-bazar-bangladesh/</item>
+        <item>https://www.booking.com/hotel/bd/prime-park-cox-39-s-bazar.en-gb.html</item>
+        <item>https://www.hotels.com/ho748496160/the-cox-beach-resort-cox-s-bazar-bangladesh/</item>
+        <item>https://www.expedia.com/Coxs-Bazar-Hotels-Beach-Holiday-Guest-House.h19709774.Hotel-Information</item>
+        <item>https://www.agoda.com/sea-breeze-resort/hotel/cox-s-bazar-bd.html?cid=1844104</item>
+    </string-array>
+
+
+    <!-- array cat2 => food =>  title_name_2 = titleName | address_2 = address | tel_2 = tel | web_2 = web | item_name_2 = itemName -->
+    <string-array name="title_name_2">
+        <item>Palongki Inani</item>
+        <item>Sun Dancer Cafe  Restaurant</item>
+        <item>Beach Planet</item>
+        <item>Mermaid Beach Resort  </item>
+        <item>Ruposhi Bangla Restaurant  </item>
+        <item>Poushee Restaurant  </item>
+    </string-array>
+    <string-array name="address_2">
+        <item>Marine Drive, Inani Beach, Jaliapalong, Cox#39;s Bazar 4750 Bangladesh</item>
+        <item>Marine Drive Road Himchori, Cox#39;s Bazar Bangladesh</item>
+        <item>Marine Drive Road, Kolatoli</item>
+        <item>Marine Drive Road, Pacher Dwip Rabeta, Ramu, Cox#39;s Bazar 4730 Bangladesh  </item>
+        <item>New Beach Road, Shugondha point, Kolatoli Beside K Life building  Homeymoon Resort and over Desh Travel Bus Counter, Cox#39;s Bazar 4700 Bangladesh </item>
+        <item>Hotel Saymon Road Jhawtala, Cox#39;s Bazar 4700 Bangladesh  </item>
+    </string-array>
+    <string-array name="tel_2">
+        <item>+880 1766-668470</item>
+        <item>+880 1828-090100</item>
+        <item>+880 1757-540421</item>
+        <item>+880 1841-416468</item>
+        <item>+880 1745-699912</item>
+        <item>+880 1881-222666</item>
+    </string-array>
+    <string-array name="web_2">
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d21347523-Reviews-Palongki_Inani-Cox_s_Bazar_Chittagong_Division.html</item>
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d13431718-Reviews-Sun_Dancer_Cafe_Restaurant-Cox_s_Bazar_Chittagong_Division.html</item>
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d5801352-Reviews-Beach_Planet-Cox_s_Bazar_Chittagong_Division.html</item>
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d11931612-Reviews-Mermaid_Beach_Resort-Cox_s_Bazar_Chittagong_Division.html</item>
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d12856816-Reviews-Ruposhi_Bangla_Restaurant-Cox_s_Bazar_Chittagong_Division.html</item>
+        <item>https://www.tripadvisor.com/Restaurant_Review-g667467-d2413873-Reviews-Poushee_Restaurant-Cox_s_Bazar_Chittagong_Division.html</item>
+    </string-array>
+
+
+
+
+    <!-- array cat3 => beach =>  title_name_3 = titleName | address_3 = address  -->
+    <string-array name="title_name_3">
+        <item>Laboni beach </item>
+        <item>Inani beach </item>
+        <item>Kolatoli beach </item>
+        <item>Sugandha beach</item>
+        <item> Sonadia island  </item>
+    </string-array>
+    <string-array name="address_3">
+        <item>Laboni Beach - Coxs Bazar, Bangladesh </item>
+        <item>Pathorkhani , Jaliapalong, Inani Beach</item>
+        <item>Kolatoli beach,coxs bazar</item>
+        <item>sugandha beach ,coxs bazar</item>
+        <item>Sonadia, Maheshkhali </item>
+    </string-array>
+
+    <!-- array info =>  info_desc = description | info_desc_1 = itemName | info_web_1 = web -->
+    <string-array name="info_desc">
+        <item>COXS BAZAR</item>
+        <item>AIRPORT</item>
+        <item>THE RAILWAY STATION</item>
+        <item>BUS TERMINAL</item>
+    </string-array>
+    <string-array name="info_desc_1">
+        <item>Coxs Bazar  is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh.It is famous mostly for its long natural sandy beach.
+            <br/> It is located 150 km (93 mi) south of the city of Chittagong. Coxs Bazar is also known by the name Panowa, which translates literally as "yellow flower". Another old name was "Palongkee".
+            <br/>The modern Coxs Bazar derives its name from Captain Hiram Cox, an officer of the British East India Company, a Superintendent of Palongkee outpost. To commemorate his role in refugee rehabilitation work, a market was established and named after him.
+            <br/>The city covers an area of 23.4 km2 (9.0 sq mi) with 27 mahallas and 9 wards and as of 2011 had a population of 265,500. Coxs Bazar is connected by road and air with Chittagong.</item>
+        <item>The airport is in process of being upgraded to an international airport, in order to attract more tourists, which will make it the fourth international airport in Bangladesh.
+            <br/>The two phases of upgrading, will make the airport able to provide better facilities for parking, landing and take-off for wide-body aircraft such as B777 or A330.
+            <br/>The first phase of upgrading cost was ৳6 billion (US$71 million). The second phase of upgrading cost is US $230 million. </item>
+        <item>
+            <br/>Chittagong-Coxs Bazar railway line is a proposed 120km dual-gauge passenger line from  village in south-east Bangladesh to Coxs Bazar, one of the most popular tourist destinations in the country.
+            <br/>The greenfield project is one of seven investment sub-projects being undertaken by the Bangladesh Railway (BR) to improve the country’s rail connectivity with other Asian countries.
+            <br/>t is part of Trans-Asian Railway (TAR) network and will improve access to Myanmar and beyond. The project is endorsed by the South Asia Sub regional Economic Cooperation (SASEC).
+            <br/>The project will take five years to complete, and generate employment for approximately 3,500 workers in local communities. It will also enhance trade and tourism in the southern-most parts of the country.
+            <br/>Civil works for the project began in March 2018 and it is expected to be completed by 2022.
+        </item>
+
+        <item>
+            <br/>The main bus terminal is a few km east of the central town area, about a 15 minute / Tk 10 rickshaw ride.
+            <br/>Local buses head to Chittagong (Tk 120, 4 hours) and Teknaf (Tk 70, 3 hours).
+            <br/>The private bus companies have offices near Hotel Sea Queen on the main road, and also down in the Hotel  Zone.
+        </item>
+
+    </string-array>
+    <!--if you click on the image (e.g :Airport) then the url address of the airport-web is initialized in the browser -->
+    <string-array name="info_web_1">
+        <item>https://en.wikipedia.org/wiki/Cox%27s_Bazar</item>
+
+    </string-array>
+
+
+
+
+
+
+</resources>
